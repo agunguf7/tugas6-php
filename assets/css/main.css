@@ -1,0 +1,469 @@
+/*
+kode warna
+
+biru = #02124B
+merah = #b54141
+
+
+
+
+*/
+body {
+    font-family: "Roboto", sans-serif;
+    margin-top: 65px;
+}
+section#content {
+    min-height: 500px;
+}
+
+nav.navbar {
+    background-color: white;
+    box-shadow: 0px 4px 3px rgb(221, 221, 235);
+}
+nav.navbar .navbar-brand {
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+nav.navbar .navbar-brand:hover {
+    color: #b54141;
+}
+
+nav.navbar li a.nav-link {
+    color: black !important;
+    font-size: 15px;
+}
+
+nav.navbar li a.nav-link:hover {
+    color: #b54141 !important;
+}
+
+/* header */
+.header-home {
+    /* background-color: #02124B; */
+    background: rgb(18, 42, 134);
+    background: linear-gradient(
+        90deg,
+        rgba(18, 42, 134, 1) 0%,
+        rgba(0, 131, 140, 0.8451528637770898) 100%
+    );
+    min-height: 700px;
+    border: none;
+    color: white;
+    margin-top: -30px !important;
+}
+.header-content {
+    padding-top: 200px;
+}
+.header-content img {
+    max-height: 320px;
+    margin-top: -60px;
+}
+/* akhir header */
+
+/* section */
+#saya-siapa p {
+    font-weight: 400;
+}
+.title-section {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.subtitle-section {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+.c-card-portofolio1 {
+    position: relative;
+}
+.c-card-portofolio2 img {
+    max-height: 160px;
+    width: 100%;
+}
+
+.c-card-portofolio1 img {
+    max-height: 180px;
+    width: 100%;
+}
+.c-card-portofolio1 .label-kategori-1 {
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    font-size: 14px;
+    background-color: #3a5089;
+    padding: 3px 10px;
+    color: white;
+    border: 2px;
+}
+.c-card-portofolio1 .label-kategori-2 {
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    font-size: 14px;
+    background-color: #8c0000;
+    padding: 3px 10px;
+    color: white;
+    border: 2px;
+}
+.c-card-portofolio1 .title {
+    font-size: 16px !important;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+.c-card-portofolio1 a {
+    color: black;
+}
+.c-card-portofolio1 a:hover {
+    color: #b54141;
+    text-decoration: none;
+}
+
+/* portofolio 2 */
+.c-card-portofolio2 {
+    position: relative;
+}
+.c-card-portofolio2 .label-kategori-1 {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    font-size: 14px;
+    background-color: #3a5089;
+    padding: 3px 10px;
+    color: white;
+    border: 2px;
+}
+.c-card-portofolio2 .label-kategori-2 {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    font-size: 14px;
+    background-color: #8c0000;
+    padding: 3px 10px;
+    color: white;
+    border: 2px;
+}
+.c-card-portofolio2 .title {
+    font-size: 16px !important;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+.c-card-portofolio2 a {
+    color: black;
+}
+.c-card-portofolio2 a:hover {
+    color: #b54141;
+    text-decoration: none;
+}
+
+.c-card-artikel .title {
+    font-size: 16px !important;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+.c-card-artikel a {
+    color: black;
+}
+.c-card-artikel a:hover {
+    color: #b54141;
+    text-decoration: none;
+}
+
+.btn-lihat-semua {
+    background-color: #05154d;
+    color: white;
+}
+.btn-lihat-semua:hover {
+    background-color: #b54141;
+    color: white;
+}
+#tool-dan-alat img {
+    max-height: 72px;
+    max-width: 330px;
+}
+#tertarik-dengan-saya .sm:hover {
+    text-decoration: none;
+}
+#tertarik-dengan-saya .sm h2 {
+    color: black;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+#tertarik-dengan-saya .sm h2:hover {
+    color: #b54141;
+}
+
+/* footer */
+.footer-atas {
+    color: white;
+    background-color: #1d1b1b;
+    padding: 30px 0 20px 0;
+    margin-top: 60px;
+}
+.footer-atas h2 {
+    margin-bottom: 40px;
+}
+
+.footer-atas table td {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 0 !important;
+}
+.footer-atas li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-atas li a:hover {
+    color: #b54141;
+    text-decoration: none;
+}
+.footer-bawah {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* section content */
+section#content {
+    margin-top: 90px;
+}
+section#content .title {
+    font-size: 28px;
+}
+.form-pencarian button {
+    background-color: #02124b;
+    color: white;
+}
+.form-pencarian button:hover {
+    background-color: #b54141;
+    color: white;
+}
+ul.pagination-active {
+    background-color: #b54141 !important;
+}
+
+/* section tentang */
+section#tentang h3 {
+    font-size: 20px;
+    margin-top: 13px;
+}
+section#tentang h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* section kontak */
+section#kontak {
+    font-size: 17px;
+    font-weight: 400;
+}
+section#kontak img {
+    max-height: 40px;
+}
+section#kontak button {
+    background-color: #02124b;
+    color: white;
+}
+section#kontak button:hover {
+    background-color: #b54141;
+    color: white;
+}
+
+/* section detail blog */
+section#detail-blog .breadcrumb {
+    padding: 0;
+    background-color: white;
+}
+section#detail-blog .breadcrumb .breadcrumb-item a {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+section#detail-blog .breadcrumb .breadcrumb-item a:hover {
+    text-decoration: none;
+    color: #b54141;
+}
+section#detail-blog .image-title {
+    max-height: 490px;
+}
+section#detail-blog .blog-title {
+    font-size: 32px;
+    margin-top: 20px;
+}
+section#detail-blog .blog-info i {
+    font-size: 13px;
+    color: #504848;
+}
+section#detail-blog .blog-info a {
+    color: #504848;
+    font-size: 13px;
+}
+section#detail-blog .blog-info a:hover {
+    color: #b54141;
+    text-decoration: none;
+}
+section#detail-blog .blog-deskripsi p {
+    font-size: 16px;
+    font-weight: 400;
+}
+section#detail-blog .blog-bagikan img {
+    height: 40px;
+}
+aside .sidebar-heading {
+    background-color: #02124b;
+    border-radius: 3px;
+}
+aside .sidebar-heading h2 {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+}
+aside .sidebar-item-image {
+    max-height: 70px;
+}
+aside .sidebar-item-name h2 {
+    font-size: 15px;
+    padding-left: 0;
+    margin-left: 0;
+    font-weight: 400;
+    color: black;
+}
+aside .sidebar-item-name:hover {
+    color: #b54141 !important;
+    text-decoration: none;
+}
+
+section#tertarik-dengan-saya img {
+    max-height: 80px;
+}
+
+.sendwa-group-icon {
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+}
+
+img.isw {
+    height: 50px;
+    width: 50px;
+}
+
+img.isw:hover {
+    height: 55px;
+    width: 55px;
+    transition: 500ms;
+}
+
+/* tampilan android */
+@media (max-width: 575.98px) {
+    /* home */
+    .header-sosmed a {
+        margin: 0 5px;
+    }
+    /* akhir home */
+    /* section */
+    section h2.section-title {
+        font-size: 26px !important;
+        margin-top: 20px;
+    }
+    section#content {
+        min-height: 300px;
+    }
+
+    .c-card-portofolio1 img {
+        width: 100%;
+        height: 160px;
+    }
+    .c-card-portofolio1 span {
+        top: 0;
+        right: -8px !important;
+    }
+    .c-card-portofolio1 h2.title {
+        font-size: 19px !important;
+    }
+    .c-card-artikel h2.title {
+        font-size: 19px !important;
+    }
+    .c-card-artikel img {
+        width: 100%;
+    }
+    /* akhir section */
+    /* section blog */
+    section#blog .c-card-artikel h2 {
+        font-size: 19px !important;
+    }
+    .c-card-portofolio2 img {
+        width: 100%;
+        height: 260px;
+    }
+    .c-card-portofolio2 span {
+        top: 0;
+        right: 0;
+    }
+    .c-card-portofolio2 h2.title {
+        font-size: 19px !important;
+    }
+    /* akhir section blog */
+
+    /* section detail blog */
+    section#detail-blog .image-title {
+        max-height: 250px;
+    }
+    section#detail-blog .blog-title {
+        font-size: 26px;
+    }
+
+    section#artikel-terkait img {
+        width: 100%;
+    }
+    section#artikel-terkait h2.title {
+        font-size: 19px !important;
+    }
+    /* akhir sectionb blog */
+
+    /* home */
+    header.header-home .image-header {
+        text-align: center !important;
+        margin-bottom: 40px;
+    }
+    header.header-home .header-content {
+        padding-top: 100px;
+    }
+    /* section#tertarik-dengan-saya .title-section{
+        margin-top: 1200px;
+    } */
+    section#tertarik-dengan-saya img {
+        max-height: 60px;
+    }
+    section#tertarik-dengan-saya .sm h2 {
+        display: none;
+    }
+    /* akhir home */
+
+    /* section tentang */
+    section#tentang .title,
+    section#kontak .section-title {
+        text-align: center;
+    }
+    section#tentang .profile {
+        margin-bottom: 50px;
+    }
+    /* akhir section tentang */
+
+    /* kontak */
+    section#kontak form {
+        margin-top: 50px;
+    }
+    /* akhir kontak */
+}
